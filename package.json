@@ -1,5 +1,6 @@
 {
   "name": "react-starter",
+  "homepage": "https://bigwellbara.github.io/cicd-gitpages-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
