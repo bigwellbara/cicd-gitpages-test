@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2  # Explicitly set to the latest version
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4  # Change this to v4
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
